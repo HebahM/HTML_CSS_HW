@@ -38,20 +38,25 @@ article {
     color: #ebebeb;
     width: 450px;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
 }
 
 h1, p {
     color: #777;
     background: #ebebeb;
-    padding: 10px;
+    padding: 15px;
+}
+h1 {
+    margin-bottom: -10px;
 }
 p {
-    width: 400px;
-    margin: auto;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 0
 }
+h1.unbold {
+    font-weight: normal;
+    font-size: 18px;
+}
+
 aside {
     color: gray;
     background: #ebebeb;
@@ -59,7 +64,7 @@ aside {
     margin-left: 10px;
     float: right;
     width: 425px;
-    height: 308px;
+    height: 270px;
     text-align: center;
 }
 
@@ -67,6 +72,6 @@ footer {
     background: #ebebeb;
     clear: both;
     padding: 40px;
-    margin-top: 350px;
+    margin-top: 315px;
     text-align: center;
 }
